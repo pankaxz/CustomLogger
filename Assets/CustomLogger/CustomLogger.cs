@@ -8,14 +8,14 @@ namespace PNKZ{
     {
         [Header("Toggle Logs")]
         public bool showLogs = true;
-        public bool saveLogs_NOT_IMPLEMENTED = false;
+        public bool saveLogs = false; // NOT IMPLEMENTED
 
         public bool LogMessages = true;
         public bool LogWarnings = true;
         public bool LogErrors = true;
 
         [SerializeField]
-        public static bool bIsPersistent = true;
+        public static bool bIsPersistent = true; 
 
         [Header("Log Format")]
         public Color MessageColor = new(0f, 1f, 0f);

@@ -102,6 +102,7 @@ namespace PNKZ{
 
         private void OnEnable()
         {
+        //Start On Loading
             SceneManager.sceneLoaded += OnSceneLoaded;
             Application.logMessageReceivedThreaded += HandleLog;
         }
